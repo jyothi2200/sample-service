@@ -13,4 +13,9 @@ public class SampleController {
 		return "Welcome to GITHub";
 
 	}
+
+	@GetMapping("/hi")
+	public String say() {
+		return "welcome";
+	}
 }
