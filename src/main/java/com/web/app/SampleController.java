@@ -14,7 +14,7 @@ public class SampleController {
 
 	}
 
-	@GetMapping("/hi")
+	@GetMapping("/hello")
 	public String say() {
 		return "welcome";
 	}
